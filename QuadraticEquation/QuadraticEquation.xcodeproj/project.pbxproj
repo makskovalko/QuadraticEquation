@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E55614522A57139C005310E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55614512A57139C005310E3 /* AppDelegate.swift */; };
+		E55614542A5713A0005310E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55614532A5713A0005310E3 /* Assets.xcassets */; };
+		E55614572A5713A0005310E3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E55614552A5713A0005310E3 /* MainMenu.xib */; };
+		E55614652A571A50005310E3 /* QuadraticEquationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55614632A571A50005310E3 /* QuadraticEquationViewController.swift */; };
+		E55614662A571A50005310E3 /* QuadraticEquationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E55614642A571A50005310E3 /* QuadraticEquationViewController.xib */; };
+		E556146C2A57F2E7005310E3 /* Atributika in Frameworks */ = {isa = PBXBuildFile; productRef = E556146B2A57F2E7005310E3 /* Atributika */; };
+		E556146E2A57F2E7005310E3 /* AtributikaViews in Frameworks */ = {isa = PBXBuildFile; productRef = E556146D2A57F2E7005310E3 /* AtributikaViews */; };
+		E55614712A57FA58005310E3 /* QuadraticEquationSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55614702A57FA58005310E3 /* QuadraticEquationSolver.swift */; };
+		E55614752A580234005310E3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E55614772A580234005310E3 /* Localizable.strings */; };
+		E556147C2A580336005310E3 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E556147B2A580336005310E3 /* String+Extensions.swift */; };
+		E55614832A580705005310E3 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55614822A580705005310E3 /* ValidationError.swift */; };
+		E5D702452A58179600C62787 /* QuadraticEquationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D702442A58179600C62787 /* QuadraticEquationError.swift */; };
+		E5D7025B2A58287300C62787 /* Models in Frameworks */ = {isa = PBXBuildFile; productRef = E5D7025A2A58287300C62787 /* Models */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E556144E2A57139C005310E3 /* QuadraticEquation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuadraticEquation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55614512A57139C005310E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E55614532A5713A0005310E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E55614562A5713A0005310E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E55614582A5713A0005310E3 /* QuadraticEquation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuadraticEquation.entitlements; sourceTree = "<group>"; };
+		E55614632A571A50005310E3 /* QuadraticEquationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticEquationViewController.swift; sourceTree = "<group>"; };
+		E55614642A571A50005310E3 /* QuadraticEquationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuadraticEquationViewController.xib; sourceTree = "<group>"; };
+		E55614702A57FA58005310E3 /* QuadraticEquationSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticEquationSolver.swift; sourceTree = "<group>"; };
+		E55614762A580234005310E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E55614782A580248005310E3 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		E55614792A580248005310E3 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E556147B2A580336005310E3 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		E55614822A580705005310E3 /* ValidationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
+		E5D702442A58179600C62787 /* QuadraticEquationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticEquationError.swift; sourceTree = "<group>"; };
+		E5D702592A58286600C62787 /* Models */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Models; path = ../../Models; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E556144B2A57139C005310E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D7025B2A58287300C62787 /* Models in Frameworks */,
+				E556146C2A57F2E7005310E3 /* Atributika in Frameworks */,
+				E556146E2A57F2E7005310E3 /* AtributikaViews in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E55614452A57139B005310E3 = {
+			isa = PBXGroup;
+			children = (
+				E55614502A57139C005310E3 /* QuadraticEquation */,
+				E556144F2A57139C005310E3 /* Products */,
+				E55614912A580E14005310E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E556144F2A57139C005310E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E556144E2A57139C005310E3 /* QuadraticEquation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E55614502A57139C005310E3 /* QuadraticEquation */ = {
+			isa = PBXGroup;
+			children = (
+				E5D702592A58286600C62787 /* Models */,
+				E556147A2A58032A005310E3 /* Extensions */,
+				E556146F2A57FA4F005310E3 /* Utils */,
+				E5D702422A5816CB00C62787 /* Features */,
+				E55614722A5801B7005310E3 /* Resources */,
+				E55614512A57139C005310E3 /* AppDelegate.swift */,
+				E55614582A5713A0005310E3 /* QuadraticEquation.entitlements */,
+			);
+			path = QuadraticEquation;
+			sourceTree = "<group>";
+		};
+		E55614622A571A43005310E3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E55614632A571A50005310E3 /* QuadraticEquationViewController.swift */,
+				E55614642A571A50005310E3 /* QuadraticEquationViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E556146F2A57FA4F005310E3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E55614702A57FA58005310E3 /* QuadraticEquationSolver.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E55614722A5801B7005310E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E55614532A5713A0005310E3 /* Assets.xcassets */,
+				E55614552A5713A0005310E3 /* MainMenu.xib */,
+				E55614772A580234005310E3 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E556147A2A58032A005310E3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E556147B2A580336005310E3 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E556147D2A5806D9005310E3 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				E5D702442A58179600C62787 /* QuadraticEquationError.swift */,
+				E55614822A580705005310E3 /* ValidationError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		E55614912A580E14005310E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5D702422A5816CB00C62787 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				E5D702432A5816DA00C62787 /* QuadraticEquation */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E5D702432A5816DA00C62787 /* QuadraticEquation */ = {
+			isa = PBXGroup;
+			children = (
+				E556147D2A5806D9005310E3 /* Errors */,
+				E55614622A571A43005310E3 /* ViewControllers */,
+			);
+			path = QuadraticEquation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E556144D2A57139C005310E3 /* QuadraticEquation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E556145B2A5713A0005310E3 /* Build configuration list for PBXNativeTarget "QuadraticEquation" */;
+			buildPhases = (
+				E556144A2A57139C005310E3 /* Sources */,
+				E556144B2A57139C005310E3 /* Frameworks */,
+				E556144C2A57139C005310E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuadraticEquation;
+			packageProductDependencies = (
+				E556146B2A57F2E7005310E3 /* Atributika */,
+				E556146D2A57F2E7005310E3 /* AtributikaViews */,
+				E5D7025A2A58287300C62787 /* Models */,
+			);
+			productName = QuadraticEquation;
+			productReference = E556144E2A57139C005310E3 /* QuadraticEquation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E55614462A57139C005310E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E556144D2A57139C005310E3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E55614492A57139C005310E3 /* Build configuration list for PBXProject "QuadraticEquation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				uk,
+			);
+			mainGroup = E55614452A57139B005310E3;
+			packageReferences = (
+				E556146A2A57F2E7005310E3 /* XCRemoteSwiftPackageReference "Atributika" */,
+			);
+			productRefGroup = E556144F2A57139C005310E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E556144D2A57139C005310E3 /* QuadraticEquation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E556144C2A57139C005310E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55614542A5713A0005310E3 /* Assets.xcassets in Resources */,
+				E55614752A580234005310E3 /* Localizable.strings in Resources */,
+				E55614662A571A50005310E3 /* QuadraticEquationViewController.xib in Resources */,
+				E55614572A5713A0005310E3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E556144A2A57139C005310E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E556147C2A580336005310E3 /* String+Extensions.swift in Sources */,
+				E55614832A580705005310E3 /* ValidationError.swift in Sources */,
+				E55614522A57139C005310E3 /* AppDelegate.swift in Sources */,
+				E55614652A571A50005310E3 /* QuadraticEquationViewController.swift in Sources */,
+				E5D702452A58179600C62787 /* QuadraticEquationError.swift in Sources */,
+				E55614712A57FA58005310E3 /* QuadraticEquationSolver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E55614552A5713A0005310E3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E55614562A5713A0005310E3 /* Base */,
+				E55614782A580248005310E3 /* uk */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E55614772A580234005310E3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E55614762A580234005310E3 /* en */,
+				E55614792A580248005310E3 /* uk */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E55614592A5713A0005310E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E556145A2A5713A0005310E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E556145C2A5713A0005310E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuadraticEquation/QuadraticEquation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZS9A3Y8V79;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.QuadraticEquation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E556145D2A5713A0005310E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuadraticEquation/QuadraticEquation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZS9A3Y8V79;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.QuadraticEquation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E55614492A57139C005310E3 /* Build configuration list for PBXProject "QuadraticEquation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55614592A5713A0005310E3 /* Debug */,
+				E556145A2A5713A0005310E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E556145B2A5713A0005310E3 /* Build configuration list for PBXNativeTarget "QuadraticEquation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E556145C2A5713A0005310E3 /* Debug */,
+				E556145D2A5713A0005310E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E556146A2A57F2E7005310E3 /* XCRemoteSwiftPackageReference "Atributika" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/psharanda/Atributika";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E556146B2A57F2E7005310E3 /* Atributika */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E556146A2A57F2E7005310E3 /* XCRemoteSwiftPackageReference "Atributika" */;
+			productName = Atributika;
+		};
+		E556146D2A57F2E7005310E3 /* AtributikaViews */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E556146A2A57F2E7005310E3 /* XCRemoteSwiftPackageReference "Atributika" */;
+			productName = AtributikaViews;
+		};
+		E5D7025A2A58287300C62787 /* Models */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Models;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E55614462A57139C005310E3 /* Project object */;
+}

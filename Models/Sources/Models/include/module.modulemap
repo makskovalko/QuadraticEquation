@@ -1,0 +1,6 @@
+module Models {
+    header "Coefficients.h"
+    header "AlertInfo.h"
+    header "QuadraticEquationResult.h"
+    header "ValidationResult.h"
+}

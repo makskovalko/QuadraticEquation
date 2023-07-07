@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  QuadraticEquation
+
+  Created by Maxim Kovalko on 7/7/23.
+  
+*/
+
+"Sample: %@" = "Приклад: %@";
+"Solutions:" = "Рішення:";
+"ok" = "ок";
+"Invalid Input" = "Некорректні введені дані";
+"Invalid value for %@" = "Некорректне значення для коефіцієнта '%@'";
+"No real solutions" = "Немає рішення";
+"Calculate" = "Вирішити";

@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  QuadraticEquation
+
+  Created by Maxim Kovalko on 7/7/23.
+  
+*/
+
+"Sample: %@" = "Sample: %@";
+"Solutions:" = "Solutions:";
+"ok" = "ok";
+"Invalid Input" = "Invalid Input";
+"Invalid value for %@" = "Invalid value for '%@'";
+"No real solutions" = "No real solutions";
+"Calculate" = "Calculate";
