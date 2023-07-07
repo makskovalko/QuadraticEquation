@@ -14,12 +14,12 @@
 		E55614662A571A50005310E3 /* QuadraticEquationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E55614642A571A50005310E3 /* QuadraticEquationViewController.xib */; };
 		E556146C2A57F2E7005310E3 /* Atributika in Frameworks */ = {isa = PBXBuildFile; productRef = E556146B2A57F2E7005310E3 /* Atributika */; };
 		E556146E2A57F2E7005310E3 /* AtributikaViews in Frameworks */ = {isa = PBXBuildFile; productRef = E556146D2A57F2E7005310E3 /* AtributikaViews */; };
-		E55614712A57FA58005310E3 /* QuadraticEquationSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55614702A57FA58005310E3 /* QuadraticEquationSolver.swift */; };
 		E55614752A580234005310E3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E55614772A580234005310E3 /* Localizable.strings */; };
 		E556147C2A580336005310E3 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E556147B2A580336005310E3 /* String+Extensions.swift */; };
 		E55614832A580705005310E3 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55614822A580705005310E3 /* ValidationError.swift */; };
 		E5D702452A58179600C62787 /* QuadraticEquationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D702442A58179600C62787 /* QuadraticEquationError.swift */; };
 		E5D7025B2A58287300C62787 /* Models in Frameworks */ = {isa = PBXBuildFile; productRef = E5D7025A2A58287300C62787 /* Models */; };
+		E5D7025E2A582CB200C62787 /* QuadraticEquationSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D7025D2A582CB200C62787 /* QuadraticEquationSolver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,6 @@
 		E55614582A5713A0005310E3 /* QuadraticEquation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuadraticEquation.entitlements; sourceTree = "<group>"; };
 		E55614632A571A50005310E3 /* QuadraticEquationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticEquationViewController.swift; sourceTree = "<group>"; };
 		E55614642A571A50005310E3 /* QuadraticEquationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuadraticEquationViewController.xib; sourceTree = "<group>"; };
-		E55614702A57FA58005310E3 /* QuadraticEquationSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticEquationSolver.swift; sourceTree = "<group>"; };
 		E55614762A580234005310E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E55614782A580248005310E3 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		E55614792A580248005310E3 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		E55614822A580705005310E3 /* ValidationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
 		E5D702442A58179600C62787 /* QuadraticEquationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticEquationError.swift; sourceTree = "<group>"; };
 		E5D702592A58286600C62787 /* Models */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Models; path = ../../Models; sourceTree = "<group>"; };
+		E5D7025D2A582CB200C62787 /* QuadraticEquationSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadraticEquationSolver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,15 +93,6 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		E556146F2A57FA4F005310E3 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				E55614702A57FA58005310E3 /* QuadraticEquationSolver.swift */,
-			);
-			name = Utils;
-			path = ../../Utils;
-			sourceTree = "<group>";
-		};
 		E55614722A5801B7005310E3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,11 +138,19 @@
 		E5D702432A5816DA00C62787 /* QuadraticEquation */ = {
 			isa = PBXGroup;
 			children = (
-				E556146F2A57FA4F005310E3 /* Utils */,
+				E5D7025C2A582CB200C62787 /* Utils */,
 				E556147D2A5806D9005310E3 /* Errors */,
 				E55614622A571A43005310E3 /* ViewControllers */,
 			);
 			path = QuadraticEquation;
+			sourceTree = "<group>";
+		};
+		E5D7025C2A582CB200C62787 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E5D7025D2A582CB200C62787 /* QuadraticEquationSolver.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +239,7 @@
 				E55614522A57139C005310E3 /* AppDelegate.swift in Sources */,
 				E55614652A571A50005310E3 /* QuadraticEquationViewController.swift in Sources */,
 				E5D702452A58179600C62787 /* QuadraticEquationError.swift in Sources */,
-				E55614712A57FA58005310E3 /* QuadraticEquationSolver.swift in Sources */,
+				E5D7025E2A582CB200C62787 /* QuadraticEquationSolver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
