@@ -76,7 +76,6 @@
 			children = (
 				E5D702592A58286600C62787 /* Models */,
 				E556147A2A58032A005310E3 /* Extensions */,
-				E556146F2A57FA4F005310E3 /* Utils */,
 				E5D702422A5816CB00C62787 /* Features */,
 				E55614722A5801B7005310E3 /* Resources */,
 				E55614512A57139C005310E3 /* AppDelegate.swift */,
@@ -99,7 +98,8 @@
 			children = (
 				E55614702A57FA58005310E3 /* QuadraticEquationSolver.swift */,
 			);
-			path = Utils;
+			name = Utils;
+			path = ../../Utils;
 			sourceTree = "<group>";
 		};
 		E55614722A5801B7005310E3 /* Resources */ = {
@@ -147,6 +147,7 @@
 		E5D702432A5816DA00C62787 /* QuadraticEquation */ = {
 			isa = PBXGroup;
 			children = (
+				E556146F2A57FA4F005310E3 /* Utils */,
 				E556147D2A5806D9005310E3 /* Errors */,
 				E55614622A571A43005310E3 /* ViewControllers */,
 			);
